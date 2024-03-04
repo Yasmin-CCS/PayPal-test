@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Yasmin Saparolli Paypal Test</title>
+</head>
+
+<body>
+  <script src="./script.js" defer type="module"></script>
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=AbFACBiHohYq1DXPdoegkEEkD6I1morCkrL0zaJJNVd5uIkUaWTF8ols1pPAv8SFlwUUV0HrRK8m_aUb&components=buttons"></script>
+
+  <header>
+    <h2>Test Store</h2>
+  </header>
+  
+  <main>
+    <div id="thankYouMessage" style="display: none">
+      <h2>Thank You for Choosing Us!</h2>
+  
+      <h4>Congratulations! Your transaction has been successfully completed. Your transaction ID:<span
+          id="transactionId"></span></h4>
+  
+        <h4>Your support means everything to us! Enjoy your shopping experience!</h4>
+  
+      </br>
+        <h4>Best Regards,</h4>
+        <h4>Test Store</h4>
+      </div>
+    
+    <h1>Shopping Cart</h1>
+    <div class="productBox">
+
+      <h2> Products:</h2>
+      <div class="productDataBox">
+        <h4>Smartphone</h2>
+          <div class="productDetails">
+            <div class="productItemNumber">
+              <h4>Item number:</h4>
+              <h4>1</h4>
+            </div>
+            <div class="productPrice">
+              <h4>Price:</h4>
+              <h4>U$ 1,00</h4>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="buyerBox">
+      <h2>Buyer:</h2>
+      <form>
+        <div class="buyerDataBox">
+          <div class="labelInput">
+            <label>First Name:</label>
+            <input id="first_name" placeholder="Lilian" />
+          </div>
+          <div class="labelInput">
+            <label>Last Name:</label>
+            <input id="last_name" placeholder="Smith" />
+          </div>
+          <div class="labelInput">
+            <label>E-mail:</label>
+            <input id="email" placeholder="test@email.com" />
+          </div>
+          <div class="labelInput">
+            <label>Phone Number:</label>
+            <input id="phone" placeholder="14044841573" />
+          </div>
+        </div>
+        <div class="addressBox">
+          <h3>Shipping Address:</h3>
+          <div class="addressDataBox">
+            <div class="labelInput">
+              <label>Address Line 1</label>
+              <input id="address_line_1" placeholder="402 Belvedere St" />
+            </div>
+            <div class="labelInput">
+              <label>Address Line 2</label>
+              <input id="address_line_2" placeholder="complement" />
+            </div>
+            <div class="labelInput">
+              <label>City</label>
+              <input id="admin_area_2" placeholder="San Diego" />
+            </div>
+            <div class="labelInput">
+              <label>State or Province</label>
+              <input id="admin_area_1" placeholder="CA" />
+            </div>
+            <div class="labelInput">
+              <label>ZIP or Postal Code</label>
+              <input id="postal_code" placeholder="92037" />
+            </div>
+            <div class="labelInput">
+              <label>Country</label>
+              <input input id="country_code" placeholder="US" />
+            </div>
+            
+          </div>
+        </div>
+        <div id="paypal-button-container"></div>
+      </form>
+    </div>
+  </main>
+
+</body>
+
+</html>

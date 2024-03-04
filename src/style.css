@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color:rgba(29, 96, 252, 0.906);
+  height: 10rem;
+  padding: 5rem;
+
+  color: white
+}
+
+
+
+main {
+  margin: 5rem 5rem;
+}
+
+#thankYouMessage{
+  flex-direction: column;
+  margin-bottom: 5rem;
+  line-height: 3rem;
+  h2 {
+    margin-bottom: 5rem;
+  }
+}
+
+h1{
+  font-size:4rem;
+}
+
+h2{
+  font-size:3rem;
+}
+
+h3{
+  font-size:2,5rem;
+}
+
+h4{
+  font-size:2rem;
+}
+
+.productBox{
+  margin-top: 2rem;
+}
+
+.productDataBox{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 2rem;
+  background-color: rgb(159, 212, 216);
+}
+
+.productDetails{
+  display: flex;
+  gap: 2rem;
+}
+
+.productItemNumber{
+  display: flex;
+}
+
+.productPrice{
+  display: flex;
+}
+
+.buyerBox{
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+
+.buyerDataBox{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.addressDataBox{
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  
+}
+
+.addressBox{
+  margin: 1.5rem 0rem 5rem 0rem;
+}
+
+.labelInput{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  font-size: 1.5rem;
+}
+
+.buttonArea{
+  margin-top: 2rem;
+}
+
